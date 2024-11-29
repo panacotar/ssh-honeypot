@@ -37,6 +37,7 @@ make
 ssh-keygen -t rsa -f ./ssh-honeypot.rsa
 bin/ssh-honeypot -r ./ssh-honeypot.rsa
 ```
+*Note:* Make might show a warning related to `ssh_message_auth_password` being deprecated. The binary is still being created, check `/bin/ssh-honeypot`.
 
 ### OSX (experimental/unsupported)
 
